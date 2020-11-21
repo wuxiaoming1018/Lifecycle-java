@@ -18,6 +18,11 @@ public class MediaPlayerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initPlayer();
+        test();
+    }
+
+    private void test() {
+
     }
 
     private void initPlayer() {
